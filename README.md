@@ -1,2 +1,2 @@
-use 5 independent list to save TEMP of different station_id
-then use max() to find the maximum TEMP of the list respectively
+用五個list去儲存對應觀測站的溫度(row['TEMP'])，並且用if條件式去過濾掉不要的數據
+最後判斷各個list的max值是否存在，如果有就印出其list裡面元素的最大值。若沒有則印出NONE
